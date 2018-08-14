@@ -11,10 +11,10 @@ set -o nounset    # fail on unset variables
 ### Declare values
 
 # Name of your team (optional)
-HEROKU_TEAM_NAME=""
+HEROKU_TEAM_NAME="YearUp"
 
 # Descriptive name for the Heroku app (e.g. gifter)
-HEROKU_APP_NAME="YOUR_APP_NAME"
+HEROKU_APP_NAME="yearup-sfdev"
 
 # Name of the Heroku apps you'll use
 HEROKU_DEV_APP_NAME="$HEROKU_APP_NAME-dev"
@@ -31,10 +31,10 @@ STAGING_USERNAME="TestOrg"
 PROD_USERNAME="ProdOrg"
 
 # Repository with your code (e.g. wadewegner/GIFter)
-GITHUB_REPO="YOUR_GITHUB_REPO"
+GITHUB_REPO="ajayyearup/sfdx-heroku"
 
 # Your package name (e.g. GIFter)
-PACKAGE_NAME="YOUR_PACKAGE_NAME"
+PACKAGE_NAME="yearupPackage"
 
 ### Setup script
 
